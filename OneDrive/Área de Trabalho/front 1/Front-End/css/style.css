@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+html * {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body {
+   background-image: url(https://bit.ly/3zGyvBD);
+   object-fit: contain;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+/*=======================Cabeçalho=======================*/
+#cabecalho {
+    background-color: #5d615d;
+    color: #ffffff;
+}
+
+#titulo {
+    font-family: 'Indie Flower', cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+/*==================Conteúdo principal==================*/
+.centralizar {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#paragrafo {
+    background-color: #0000003b;
+    color: #ffffff;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#video {
+    margin-top: 50px;
+}
+
+#subtitulo {
+    color: white;
+    text-align: center;
+    font-family: 'Acme', sans-serif; 
+    margin-top: 40px;   
+}
+#listas {
+    background-color: #0000003b;
+    color: white;
+    text-align: justify;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*========================Rodapé========================*/
+#rodape {
+    background-color: #5d615d;
+    height: 150px;
+}
+
+#rodape--icones {
+    margin-left: 20px;
+}
+
+#rodape--icones img {
+    height: 70px;
+    margin-right: 20px;
+}
+
